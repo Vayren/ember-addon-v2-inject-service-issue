@@ -1,0 +1,29 @@
+{
+  "name": "ember-addon-v2-inject-service-issue",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "host-app"
+  ],
+  "description": "Reproduce an issue with injecting services from ember addon-v2 to lazy loading engines.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmytro Nakonechnyi",
+  "license": "ISC",
+  "devDependencies": {
+    "ember-cli": "~4.12.2",
+    "lerna": "^8.0.2"
+  },
+  "engines": {
+    "node": "18.19",
+    "npm": "9.9.*"
+  },
+  "volta": {
+    "node": "18.19.0",
+    "npm": "9.9.2"
+  },
+  "ember-addon": {
+    "projectRoot": "./host-app"
+  }
+}
